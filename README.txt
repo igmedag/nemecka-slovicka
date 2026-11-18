@@ -1,0 +1,1 @@
+NJ 1.1 — nahrajte pouze obsah tohoto webového ZIP do nového repozitáře. Soukromý JSON importujte ve Správě slovníku, nikdy jej nenahrávejte na GitHub. Import nahrazuje slovník a ukončuje rozpracované úlohy. Obnovení výchozího slovníku odstraní soukromé doplnění; lze je znovu importovat. Viz ATTRIBUTION.
