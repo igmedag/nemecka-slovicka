@@ -1,5 +1,5 @@
 'use strict';
-const $=id=>document.getElementById(id), VERSION='1.8', STORE='nemecka-slovicka-v1-dictionary', PROGRESS='nemecka-slovicka-v1-progress';
+const $=id=>document.getElementById(id), VERSION='1.9', STORE='nemecka-slovicka-v1-dictionary', PROGRESS='nemecka-slovicka-v1-progress';
 function syncVersion(){const v=document.getElementById('currentVersion');if(v)v.textContent='Verze '+VERSION;const sub=document.getElementById('subtitleVersion');if(sub)sub.textContent='verze '+VERSION;}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',syncVersion);else syncVersion();
 const IPA='ə æ ɑ ɒ ɔ ʌ ɜ ɪ i ʊ u ɛ e ɐ ɚ ɝ ɡ ŋ ʃ ʒ θ ð tʃ dʒ ˈ ˌ ː ɹ ɾ ɫ'.split(' ');
 const clone=x=>JSON.parse(JSON.stringify(x));const normalize=x=>String(x||'').trim().toLocaleLowerCase('cs').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[.,!?;:]+$/,'').replace(/\s+/g,' ');

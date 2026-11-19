@@ -1,7 +1,7 @@
 {
   "id": "./nemecka-slovicka",
   "name": "Německá slovíčka",
-  "short_name": "NJ",
+  "short_name": "Německá slovíčka",
   "description": "Učení a testování německé slovní zásoby A1–C2",
   "lang": "cs",
   "start_url": "./index.html",
